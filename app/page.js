@@ -4,7 +4,7 @@ import LeftSide from '@/components/LeftSide'
 import RightSide from '@/components/RightSide'
 import Main from '@/components/Main'
 
-export default function page() {
+export default function Page() {
   console.log(process.env.NODE_ENV)
 
   return (

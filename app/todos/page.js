@@ -1,7 +1,7 @@
-'use client'
+// 'use client'
 import React, { useState } from 'react'
 
-function page() {
+function Page() {
   const [todo, setTodo] = useState('')
   const [todos, setTodos] = useState([])
   const [editing, setEditing] = useState(false)
@@ -76,4 +76,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

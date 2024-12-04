@@ -6,7 +6,7 @@ import Score from '@/components/Score'
 import { usePathname } from 'next/navigation'
 // import { redirect } from 'next/navigation'
 
-function page() {
+function Page() {
   // redirect('/todo')
   const pathname = usePathname()
 
@@ -46,7 +46,7 @@ function page() {
 
   return (
     <div className='text-center'>
-      <p>Quiz page</p>
+      <p>Quiz Page</p>
       {pathname == '/quiz' && <p>Welcome to Quiz</p>}
 
       {!quizEnd ? (
@@ -63,4 +63,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 
-function page() {
+function Page() {
   const [isHead, setIsHead] = useState(true)
 
   const urlHead =
@@ -33,4 +33,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

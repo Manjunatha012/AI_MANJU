@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from '@/components/Home'
 
-function page() {
+function Page() {
   return (
     <div>
       hvcsbiagycH jh
@@ -10,4 +10,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
