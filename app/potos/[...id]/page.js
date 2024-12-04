@@ -2,7 +2,7 @@
 import { useParams } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 
-function page() {
+function Page() {
   const [poto, setPoto] = useState(null)
   const [loading, setloading] = useState(true)
 
@@ -44,4 +44,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

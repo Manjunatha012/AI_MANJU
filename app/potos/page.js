@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 
-function page() {
+function Page() {
   const [potos, setPotos] = useState(null)
   const [loading, setloading] = useState(true)
 
@@ -22,7 +22,7 @@ function page() {
 
   return (
     <>
-      <div>Potos page</div>
+      <div>Potos Page</div>
       {loading ? (
         <p>Loading........</p>
       ) : (
@@ -39,4 +39,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

@@ -2,12 +2,12 @@
 import { usePathname } from 'next/navigation'
 import React from 'react'
 
-function page() {
+function Page() {
   return (
     <div>
-      <h5>Its a Nested page</h5>
+      <h5>Its a Nested Page</h5>
     </div>
   )
 }
 
-export default page
+export default Page

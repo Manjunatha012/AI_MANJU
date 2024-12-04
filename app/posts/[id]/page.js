@@ -10,7 +10,7 @@ const fontRoboto = Roboto({
   display: 'fallback',
 })
 
-function pages() {
+function Page() {
   const pathname = usePathname() // Get the current pathname
   const id = pathname.split('/').pop()
 
@@ -41,7 +41,7 @@ function pages() {
 
   return (
     <div>
-      <h4>welcome to post pages</h4>
+      <h4>welcome to post Page</h4>
       {loading ? (
         <p>Loading.........</p>
       ) : post.id ? (
@@ -59,4 +59,4 @@ function pages() {
   )
 }
 
-export default pages
+export default Page
