@@ -9,25 +9,19 @@ export default function Page() {
 
   return (
     <>
-      {process.env.NODE_ENV === 'development' ? (
-        <div className='container'>
-          <div className='content'>
-            <aside className='sidebar leftside'>
-              <LeftSide />
-            </aside>
-            <main className='main'>
-              <Main />
-            </main>
-            <aside className='sidebar rightside'>
-              <RightSide />
-            </aside>
-          </div>
+      <div className='container'>
+        <div className='content'>
+          <aside className='sidebar leftside'>
+            <LeftSide />
+          </aside>
+          <main className='main'>
+            <Main />
+          </main>
+          <aside className='sidebar rightside'>
+            <RightSide />
+          </aside>
         </div>
-      ) : (
-        <>
-          <p>Your on production</p>
-          {process.env.NODE_ENV}
-        </>
+      </div>
       )}
     </>
   )
