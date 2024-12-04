@@ -22,7 +22,6 @@ export default function Page() {
           </aside>
         </div>
       </div>
-      )}
     </>
   )
 }
